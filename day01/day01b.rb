@@ -6,12 +6,9 @@ digits = INPUT.to_s.split('')
 
 matches = []
 digits.each_with_index do |d,i|
-  step = (digits.length / 2)
+  step   = (digits.length / 2)
   newloc = (i+step) % digits.length
-
-  if digits[i] == digits[newloc]
-    matches << digits[i].to_i
-  end
+  matches << digits[i].to_i if digits[i] == digits[newloc]
 end
 
 puts matches.sum
