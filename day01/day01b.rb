@@ -1,6 +1,6 @@
 require 'pry'
 
-INPUT=12131415
+INPUT = 12131415
 
 digits = INPUT.to_s.split('')
 
