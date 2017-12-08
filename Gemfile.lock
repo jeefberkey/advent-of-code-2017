@@ -7,6 +7,7 @@ GEM
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
+    ruby-graphviz (1.2.3)
 
 PLATFORMS
   ruby
@@ -14,6 +15,7 @@ PLATFORMS
 DEPENDENCIES
   pp
   pry
+  ruby-graphviz
 
 BUNDLED WITH
    1.15.3
