@@ -43,4 +43,5 @@ end
 #   end
 # end
 
+binding.pry
 g.output(svg: 'wat.svg')
